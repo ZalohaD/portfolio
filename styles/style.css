@@ -410,6 +410,7 @@ svg:hover .textcircle {
   .project-heading p{
     display: flex;
     justify-content: center;
+    text-align: center;
   }
   .arrow-down{
     display: flex;

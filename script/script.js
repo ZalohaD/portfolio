@@ -17,7 +17,7 @@ $(document).ready(function() {
   });
 });
 
-var t1 = new TimelineMax({ paused: true });
+var tl = new TimelineMax({ paused: true });
 
 TweenMax.from(".hero-logo", 2, {
   y: 20,
@@ -61,7 +61,7 @@ const timeline = gsap.timeline();
         x: -199,
         opacity: 0
     })
-    tl.from(".line", {
+    timeline.from(".line", {
       duration: 1,
       width: "0%",
       stagger: {
